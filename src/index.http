@@ -1,0 +1,13 @@
+### 
+GET http://localhost:9999/categories
+
+###
+GET http://localhost:9999/category?id=2
+
+###
+POST http://localhost:9999/category
+Content-Type: application/json
+
+{
+    "categ": "war"
+}
